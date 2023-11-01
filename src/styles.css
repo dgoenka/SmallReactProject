@@ -1,0 +1,38 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+.list {
+  width: 100px;
+  height: 200px;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.listItem {
+  display: flex;
+  gap: 10px;
+}
+.actions {
+  gap: 10px;
+}
+
+.actions > button {
+  padding: 5px 10px;
+}
